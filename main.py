@@ -7,7 +7,6 @@ print(random.choice(greet))
 time.sleep(0.5)
 
 def func():
-    ask = input("What function would you like to access? ")
     #----------Math Funcs--------#
     if ask == 'math':
         m_func = input("What operation? ")
@@ -21,18 +20,6 @@ def func():
             c.div()
         elif m_func == 'sqrt':
             c.rad()
-    if ask == 'help':
-        req = input("""
-Please be more specific? Help math? Help science? 
-Please say 'help' beside the subject.
-Subjects: Math.
-Tpye nothing to return """)
-        if req == '':
-            return ask
-        
-        elif req == 'help math':
-            print('ok')
-
 def main():
     func()
 main()
