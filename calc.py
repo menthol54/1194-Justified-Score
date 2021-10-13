@@ -35,6 +35,7 @@ def add():
             sum = float(n + n1 + n2 + n3)
             print(f'{n} + {n1} + {n2} + {n3} = {sum}')
             break
+        return add()
 def sub():
     print("How many numbers?")
     args = input('')
@@ -68,6 +69,7 @@ def sub():
             sum = float(n - n1 - n2 - n3)
             print(f'{n} - {n1} - {n2} - {n3} = {sum}')
             break
+        return sub()
 def times():
     print("How many numbers?")
     args = input('')
@@ -102,6 +104,7 @@ def times():
             sum = float(n + n1 + n2 + n3)
             print(f'{n} + {n1} + {n2} + {n3} = {sum}')
             break
+        return times()
 def div():
     print("How many numbers?")
     args = input('')
@@ -114,12 +117,4 @@ def div():
             sum = float(n / n1)
             print(f'{n} divided by {n1} = {sum}')
             break
-
-def rad():
-    print("What's the w/index or not?")
-    args = input('')
-    while True:
-        if args == 'not':
-            n = "Radicand"
-            sum = math.sqrt(n)
-            print(sum)
+        return div()
