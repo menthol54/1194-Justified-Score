@@ -8,18 +8,17 @@ time.sleep(0.5)
 
 def func():
     #----------Math Funcs--------#
-    if ask == 'math':
-        m_func = input("What operation? ")
-        if m_func == 'add':
-            c.add()
-        elif m_func == 'sub':
-            c.sub()
-        elif m_func == 'mul' or 'times':
-            c.times()
-        elif m_func == 'div':
-            c.div()
-        elif m_func == 'sqrt':
-            c.rad()
+    m_func = input("What operation? ")
+    if m_func == 'add':
+        c.add()
+    elif m_func == 'sub':
+        c.sub()
+    elif m_func == 'mul' or 'times':
+        c.times()
+    elif m_func == 'div':
+        c.div()
+    elif m_func == 'sqrt':
+        c.rad()
 def main():
     func()
 main()
