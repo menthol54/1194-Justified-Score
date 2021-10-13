@@ -13,12 +13,14 @@ def func():
         m_func = input("What operation? ")
         if m_func == 'add':
             c.add()
-        if m_func == 'sub':
+        elif m_func == 'sub':
             c.sub()
-        if m_func == 'mul' or 'times':
+        elif m_func == 'mul' or 'times':
             c.times()
-        if m_func == 'div':
+        elif m_func == 'div':
             c.div()
+        elif m_func == 'sqrt':
+            c.rad()
     if ask == 'help':
         req = input("""
 Please be more specific? Help math? Help science? 
