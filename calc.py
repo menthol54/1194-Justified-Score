@@ -1,5 +1,5 @@
-import math
 import time
+
 
 def add():
     print("How many numbers?")
@@ -12,8 +12,8 @@ def add():
             n = float(input("First Number: "))
             time.sleep(0.5)
             n1 = float(input("Second Number: "))
-            sum = float(n + n1)
-            print(f'{n} + {n1} = {sum}')
+            sum_num = float(n + n1)
+            print(f'{n} + {n1} = {sum_num}')
             break
         if args == '3':
             n = float(input("First Number: "))
@@ -21,8 +21,8 @@ def add():
             n1 = float(input("Second Number: "))
             time.sleep(0.5)
             n2 = float(input("Third Number: "))
-            sum = float(n + n1 + n2)
-            print(f'{n} + {n1} + {n2} = {sum}')
+            sum_num = float(n + n1 + n2)
+            print(f'{n} + {n1} + {n2} = {sum_num}')
             break
         if args == '4':
             n = float(input("First Number: "))
@@ -32,10 +32,12 @@ def add():
             n2 = float(input("Third Number: "))
             time.sleep(0.5)
             n3 = float(input("Fourth Number: "))
-            sum = float(n + n1 + n2 + n3)
-            print(f'{n} + {n1} + {n2} + {n3} = {sum}')
+            sum_num = float(n + n1 + n2 + n3)
+            print(f'{n} + {n1} + {n2} + {n3} = {sum_num}')
             break
         return add()
+
+
 def sub():
     print("How many numbers?")
     args = input('')
@@ -46,8 +48,8 @@ def sub():
             n = float(input("First Number: "))
             time.sleep(0.5)
             n1 = float(input("Second Number: "))
-            sum = float(n - n1)
-            print(f'{n} - {n1} = {sum}')
+            sum_num = float(n - n1)
+            print(f'{n} - {n1} = {sum_num}')
             break
         if args == '3':
             n = float(input("First Number: "))
@@ -55,8 +57,8 @@ def sub():
             n1 = float(input("Second Number: "))
             time.sleep(0.5)
             n2 = float(input("Third Number: "))
-            sum = float(n - n1 - n2)
-            print(f'{n} - {n1} - {n2} = {sum}')
+            sum_num = float(n - n1 - n2)
+            print(f'{n} - {n1} - {n2} = {sum_num}')
             break
         if args == '4':
             n = float(input("First Number: "))
@@ -66,10 +68,12 @@ def sub():
             n2 = float(input("Third Number: "))
             time.sleep(0.5)
             n3 = float(input("Fourth Number: "))
-            sum = float(n - n1 - n2 - n3)
-            print(f'{n} - {n1} - {n2} - {n3} = {sum}')
+            sum_num = float(n - n1 - n2 - n3)
+            print(f'{n} - {n1} - {n2} - {n3} = {sum_num}')
             break
         return sub()
+
+
 def times():
     print("How many numbers?")
     args = input('')
@@ -81,8 +85,8 @@ def times():
             n = float(input("First Number: "))
             time.sleep(0.5)
             n1 = float(input("Second Number: "))
-            sum = float(n + n1)
-            print(f'{n} + {n1} = {sum}')
+            sum_num = float(n + n1)
+            print(f'{n} + {n1} = {sum_num}')
             break
         if args == '3':
             n = float(input("First Number: "))
@@ -90,8 +94,8 @@ def times():
             n1 = float(input("Second Number: "))
             time.sleep(0.5)
             n2 = float(input("Third Number: "))
-            sum = float(n + n1 + n2)
-            print(f'{n} + {n1} + {n2} = {sum}')
+            sum_num = float(n + n1 + n2)
+            print(f'{n} + {n1} + {n2} = {sum_num}')
             break
         if args == '4':
             n = float(input("First Number: "))
@@ -101,10 +105,12 @@ def times():
             n2 = float(input("Third Number: "))
             time.sleep(0.5)
             n3 = float(input("Fourth Number: "))
-            sum = float(n + n1 + n2 + n3)
-            print(f'{n} + {n1} + {n2} + {n3} = {sum}')
+            sum_num = float(n + n1 + n2 + n3)
+            print(f'{n} + {n1} + {n2} + {n3} = {sum_num}')
             break
         return times()
+
+
 def div():
     print("How many numbers?")
     args = input('')
@@ -114,7 +120,7 @@ def div():
         if type(args) == int:
             n = float(input("First Number:"))
             n1 = float(input("Second Number: "))
-            sum = float(n / n1)
-            print(f'{n} divided by {n1} = {sum}')
+            sum_num = float(n / n1)
+            print(f'{n} divided by {n1} = {sum_num}')
             break
         return div()
