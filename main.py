@@ -20,6 +20,10 @@ def func():
         c.div()
     elif m_func == 'sqrt':
         c.rad()
+
+
 def main():
     func()
+
+
 main()
