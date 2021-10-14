@@ -2,4 +2,4 @@
 version = alpha 1.0.0
 name = 119-Justified-Score
 purpose = mathematics
-pending addisions = more arithmetic options, help feautre, possible ai integration of some kind
+pending additions = more arithmetic options, help feature, possible ai- integration of some kind
