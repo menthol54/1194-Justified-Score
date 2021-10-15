@@ -1,6 +1,7 @@
 import random
 import calc as c
 import time
+import os
 
 greet = ["Hello. My name is 1194 Justified Score", "1194 online"]
 print(random.choice(greet))
@@ -18,14 +19,13 @@ def func():
         c.times()
     elif m_func == 'div':
         c.div()
-    elif m_func == 'sqrt':
-        c.rad()
+    else:
+        return func()
 
 
 def main():
     func()
-
-
-main()
+if __name__ == '__main__':
+    main()
 
 input('')
